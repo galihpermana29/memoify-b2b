@@ -1,4 +1,4 @@
-import { Input, InputNumber } from "antd";
+import { Input, InputNumber, Button } from "antd";
 import Image from "next/image";
 
 export default function Home() {
