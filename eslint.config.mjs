@@ -17,6 +17,9 @@ const eslintConfig = [
       "no-console": ["error", { allow: ["warn", "error"] }],
       "no-mixed-spaces-and-tabs": 1,
       "react/react-in-jsx-scope": 0,
+
+      // cannot allow unsued variabled
+      "@typescript-eslint/no-unused-vars": 0,
     },
   },
 ];
