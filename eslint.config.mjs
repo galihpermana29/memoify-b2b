@@ -19,7 +19,7 @@ const eslintConfig = [
       "react/react-in-jsx-scope": 0,
 
       // cannot allow unsued variabled
-      "@typescript-eslint/no-unused-vars": 0,
+      "@typescript-eslint/no-unused-vars": "error",
     },
   },
 ];
